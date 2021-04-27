@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap");
+
+html {
+  background-color: #406ea2cf;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Oxygen;
+  font-size: 1.5em;
+  margin: 10px;
+  color:rgb(33, 33, 33);
+}
+
+.header {
+  font-size: 2.0em;
+  padding: 20px;
+}
+
+.sub-header {
+  padding: 20px;
+}
+
+.download-button {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  color:rgb(33, 33, 33);
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+  background-color:rgb(255, 238, 213);
+}
+
+.download-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.command-heading {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.commands {
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.command-name {
+  font-weight: bold;
+}
+
+footer {
+  font-size: .8em;
+}
+
+
