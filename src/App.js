@@ -23,7 +23,11 @@ function App() {
           <br/>
           <span><span className="command-name">!previous</span> play last ambience.</span>
           <br/>
+          <span><span className="command-name">!loop</span> repeats current ambience.</span>
+          <br/>
           <span><span className="command-name">!end</span> the current ambience.</span>
+          <br/>
+          <span><span className="command-name">!playing</span> displays name of current ambience.</span>
           <br/>
           <span><span className="command-name">!help</span> to list all commands.</span>
         </div>
