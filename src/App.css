@@ -2,6 +2,10 @@
 
 html {
   background-color: #406ea2cf;
+  /* background-image: url("./assets/bg1.jpg");
+  background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
 }
 
 .page-content {
@@ -10,18 +14,20 @@ html {
   align-items: center;
   justify-content: center;
   font-family: Oxygen;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: 10px;
   color:rgb(33, 33, 33);
 }
 
 .header {
+  padding-top: 50px;
   font-size: 2.0em;
   padding: 20px;
 }
 
 .sub-header {
   padding: 20px;
+  font-weight: bold;
 }
 
 .download-button {
@@ -37,6 +43,10 @@ html {
 .download-button:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.command-example {
+  font-weight: bold;
 }
 
 .command-heading {
