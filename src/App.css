@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
 
 html {
   background-color: #406ea2cf;
-  /* background-image: url("./assets/bg1.jpg"); */
+  background-image: url("./assets/bg1.jpg");
   /* background-image: url("./assets/waves.jpeg"); */
   /* background-image: url("./assets/mountains.jpeg"); */
-  background-position: center;
+  /* background-image: url("./assets/blue_grad_1.jpeg"); */
+  /* background-image: url("./assets/wave.jpg"); */
+  /* background-position: center; */
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
 }
@@ -16,35 +20,40 @@ html {
   align-items: center;
   justify-content: center;
   font-family: Oxygen;
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin: 10px;
   color:rgb(33, 33, 33);
 }
 
 .header {
+  /* font-family: 'Share Tech', sans-serif; */
+  font-family: 'Comfortaa', cursive;
   font-weight: bold;
-  padding-top: 50px;
-  font-size: 2.0em;
-  padding: 20px;
+  font-size: 3.0em;
+  margin: 20px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  
 }
 
 .sub-header {
-  padding: 20px;
+  margin: 10px;
 }
 
 .download-button {
-  border: 2px solid black;
-  border-radius: 10px;
+  border: 2px solid rgb(33, 33, 33);
+  border-radius: 50px;
+  margin: 20px;
   padding: 20px;
   color:rgb(33, 33, 33);
   text-decoration: none;
-  transition: all .5s ease-in-out;
-  background-color:rgb(255, 238, 213);
+  transition: all .2s ease-in-out;
+  background-color:rgb(255, 170, 106);
 }
 
 .download-button:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .command-example {
@@ -52,14 +61,27 @@ html {
 }
 
 .command-heading {
-  font-weight: bold;
-  padding: 5px;
+
 }
 
 .commands {
-  padding: 20px;
-  text-align: center;
-  margin: 10px;
+  /* padding: 20px; */
+  text-align: left;
+  /* margin: 10px; */
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-left{
+  margin: 20px;
+}
+
+.flex-right{
+  margin: 20px;
+}
+
+.command-line {
+  margin: 7px
 }
 
 .command-name {
@@ -67,7 +89,18 @@ html {
 }
 
 footer {
-  font-size: .8em;
+  font-size: .9em;
+  margin: 20px;
+}
+
+.discord-link {
+  text-decoration: none;
+  color:rgb(33, 33, 33);
+}
+
+.discord-link:hover {
+  color:rgb(249, 143, 62);
+  text-decoration: underline;
 }
 
 
