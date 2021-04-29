@@ -8,7 +8,7 @@ function App() {
       <header className="header">Ambience Bot</header>
         <div className="sub-header">The easiest way to play any ambience in your Discord server</div>
 
-       <a className="download-button" href="https://discord.com/api/oauth2/authorize?client_id=834210463675973682&permissions=0&scope=bot">Invite To Your Server</a>
+       <a className="download-button" href="https://discord.com/api/oauth2/authorize?client_id=834210463675973682&permissions=0&scope=bot">Invite to Discord</a>
         <br/>  
         
         <span className="command-example">Command example: "!play forest"</span>
@@ -31,6 +31,8 @@ function App() {
           <span><span className="command-name">!save</span> an ambience to your favorites.</span>
           <br/>
           <span><span className="command-name">!favorites</span> play your saved favorites playlist.</span>
+          <br/>
+          <span><span className="command-name">!delete</span> removes current ambience from favoites playlist.</span>
           <br/>
           <span><span className="command-name">!end</span> the current ambience.</span>
           <br/>
